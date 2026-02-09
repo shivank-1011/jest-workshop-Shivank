@@ -1,9 +1,9 @@
 # Jest Workshop Submission
 
 ## Student Details
-- Name:
-- Roll Number:
-- GitHub Username:
+- Name: Shivank Gupta
+- Roll Number: 2024-B-10042006B
+- GitHub Username: shivank-1011
 
 ---
 
@@ -12,27 +12,28 @@
 List each test you wrote and briefly explain **what bug or regression it prevents**.
 
 ### 1. Test Name:
-**What it protects against:**  
+**no coupon case :** it protects if there is no coupon found
+
 
 ---
 
 ### 2. Test Name:
-**What it protects against:**  
+**5% discount case :** if subtotal>=1000 then apply 5% discount
 
 ---
 
 ### 3. Test Name:
-**What it protects against:**  
+**10% discount case :** if subtotal<1000 then apply 5% discount
 
 ---
 
 ### 4. Test Name:
-**What it protects against:**  
+**FLAT50 discount case :** if coupon is FLAT50 apply discount of flat 50.
 
 ---
 
 ### 5. Test Name:
-**What it protects against:**  
+**coupon flat insensitive case :** if coupon is flat50 or Flat50 or else it will be treated as FLAT50.
 
 ---
 
